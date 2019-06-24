@@ -1,0 +1,216 @@
+*
+{
+	box-sizing: border-box;
+	padding: 0;
+
+}
+u{
+	color: black;
+	background: gold;
+}
+#Python:hover
+{
+	font-style: italic;
+	background:#E2DFEC;
+}
+#Cp:hover
+{
+	font-style: italic;
+	background:#E2DFEC;
+}
+#Java:hover
+{
+	font-style: italic;
+	background:#E2DFEC;
+}
+body
+{
+	background-color: #FA8072;
+	
+	font-family: 'Lora', serif;
+	font-size: 1.6em;
+
+}
+}
+.navbar-brand h1{
+
+  font-family: 'Lora', serif;
+  color:#557c3e;
+  font-size:1.5em;
+  text-transform:uppercase;
+  font-weight:bold;
+  text-shadow:1px 1px 1px #222;
+  margin-top:0;
+  margin-bottom:0;
+  line-height:0.75;
+}
+.navbar-brand a:hover,.navbar-brand a:focus
+{
+  text-decoration: none;
+
+}
+.navbar-brand p{/*Kosher-cert*/
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  margin-top: 15px;
+}
+.navbar-brand p span {
+  vertical-align: middle;
+}
+#header-nav
+{
+	height: 100px;
+	width:100%;
+	border-radius: 0;
+	color: #008080;
+	text-transform: uppercase;
+	font-style: italic;
+	text-align: center;
+	background: #D3D3D3 
+}
+#collapsable-nav:hover{
+
+	margin-bottom: 50px;
+	height: 100px;
+	color: black;
+	position: relative;
+	margin-bottom: -30px;
+	
+
+}
+header div{
+		margin-bottom: -15px;
+	}
+h2
+{
+	text-align: center;
+	font-style: bold;
+	color:#00FFFF;
+}
+#python
+{
+	border: 3px solid black;
+	width: 100%;
+	height: 220px;
+	position: relative;
+	overflow: auto;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	
+	
+}
+
+#cp
+{
+	
+	border: 3px solid black;
+	width: 100%;
+	height: 220px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+	overflow: auto;
+
+}
+.navbar-header button.navbar-toggle
+{
+  clear: both;
+  float: right;
+  margin-left: 300px;
+
+  margin-top: -50px;
+}
+#pyt
+{
+	border:2px solid black;
+	width: 60%;
+	position: relative;
+	background:#E6E6FA;
+	text-align: right;
+
+	margin-right: 100px;
+	height: 50px;
+	opacity: .6
+}
+#pyt:hover
+{
+	  box-shadow: 0 1px 5px 1px gold;
+
+}
+@media(max-width:792px )
+{
+	@media(max-width: 767px)
+{
+.navbar-brand
+{
+  padding-top: 0px;
+  height: 80px;
+}
+.navbrand-brand h1
+{
+  padding-top: 10px;
+  font-size: 5vw;
+
+}
+.navbar-brand p
+{
+  font-size:.6em;
+  margin-top: 12px;
+}
+.navbar-brand p img {
+  height: 20px;
+}
+#collapsable-nav p{
+  font-size: 1.2em;
+}
+#collapsable-nav a span{
+  font-size: 1em;
+  margin-top: -20px;
+  margin-right: 5px;
+}
+}
+@media(max-width: 497px)
+{
+.col-xxs-12{
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+
+  }
+.navbar-brand{
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+
+#python
+{
+	border: 3px solid black;
+	width: 100%;
+	height: 220px;
+	margin-top: 20px;
+	overflow: auto;
+	margin-top:0;	
+	
+	
+}
+#cp
+{
+	
+	border: 3px solid black;
+	width: 100%;
+	height: 220px;
+	margin-bottom: 10px;
+	overflow: auto;
+
+}
+#pyt
+{
+	padding:2px;
+	margin-top: 10s0px;
+	margin-bottom: 10px;
+}
+
